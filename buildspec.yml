@@ -2,7 +2,7 @@ version: 0.2
 
 environment_variables:
   plaintext:
-    HUGO_VERSION: "0.63.0"
+    HUGO_VERSION: "0.63.1"
     
 phases:
   install:
@@ -18,8 +18,8 @@ phases:
   build:
     commands:
       - rm -rf public
-      - /usr/bin/hugo
-      - /usr/bin/hugo deploy
+      - hugo
+      - hugo deploy
   post_build:
     commands:
       - echo Build completed on `date`
