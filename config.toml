@@ -1,6 +1,6 @@
 baseURL = "http://cxy-jan23.s3-website-us-east-1.amazonaws.com"
 languageCode = "en-us"
-title = "My New Hugo Sit via AWS Cloud9"
+title = "My New Hugo Site via AWS Cloud9"
 theme = "ananke"
 
 [[deployment.targets]]
