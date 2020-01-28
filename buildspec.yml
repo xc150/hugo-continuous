@@ -18,7 +18,7 @@ phases:
   build:
     commands:
       - rm -rf public
-      - ll /usr/bin
+      - ls -l /usr/bin
       - /usr/bin/hugo
       - /usr/bin/hugo deploy
   post_build:
